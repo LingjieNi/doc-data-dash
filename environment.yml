@@ -1,0 +1,19 @@
+name: doc_data_dash
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+# doc
+  - sphinx
+  - furo
+  - sphinx-design
+
+# data
+  - pandas
+  - numpy
+
+# dash
+  - dash
+  - dash-bootstrap-components
+  - plotly
+

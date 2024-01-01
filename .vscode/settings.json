@@ -1,0 +1,6 @@
+{
+    "autoDocstring.docstringFormat": "sphinx",
+    "liveServer.settings.port": 5501,
+    "esbonio.sphinx.confDir": "",
+    "git.useEditorAsCommitInput": true
+}
