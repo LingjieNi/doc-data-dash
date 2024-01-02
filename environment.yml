@@ -17,3 +17,5 @@ dependencies:
   - dash-bootstrap-components
   - plotly
 
+# test
+  - pytest

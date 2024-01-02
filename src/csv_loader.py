@@ -16,6 +16,13 @@ class CSV:
         :type loc: Path
         :return: csv file in pandas dataframe
         :rtype: pd.Dataframe
+
+        Usage:
+        
+        .. doctest::
+
+            >>> print("load csv")
+        
         """
         return pd.read_csv(loc)
 
@@ -23,6 +30,13 @@ class CSV:
 @dataclass
 class Benchmark:
     """benchmark about
+
+    With :class:`CSV`
+
+    .. note::
+
+        With :class:`CSV`
+        time
     """
     id : str
     

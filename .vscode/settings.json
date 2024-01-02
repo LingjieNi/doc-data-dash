@@ -2,5 +2,12 @@
     "autoDocstring.docstringFormat": "sphinx",
     "liveServer.settings.port": 5501,
     "esbonio.sphinx.confDir": "",
-    "git.useEditorAsCommitInput": true
+    "git.useEditorAsCommitInput": true,
+    "python.testing.pytestArgs": [
+        "--doctest-modules", 
+        "--doctest-report", 
+        "src"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
